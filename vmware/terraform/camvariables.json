@@ -488,7 +488,7 @@
       "label": "Operating System Username - IHS01",
       "secured": false,
       "required": true,
-      "default": "root"
+      "default": "root",
       "regex": "^[a-z][-a-z0-9]*$",
       "immutable": false,
       "group_name": "virtualmachine"
@@ -501,7 +501,7 @@
       "label": "Operating System Password - IHS01",
       "secured": true,
       "required": true,
-      "default": "root4icp"
+      "default": "root4icp",
       "immutable": false,
       "group_name": "virtualmachine"
     },
