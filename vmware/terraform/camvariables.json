@@ -408,6 +408,9 @@
       "label": "DNS Servers - IHS01",
       "secured": false,
       "required": true,
+      "default": [
+        "8.8.8.8"
+      ],
       "immutable": false,
       "group_name": "virtualmachine"
     },
