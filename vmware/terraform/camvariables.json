@@ -85,6 +85,7 @@
       "label": "vSphere Resource Pool - IHS01",
       "secured": false,
       "required": true,
+      "default": "RS01",
       "immutable": false,
       "group_name": "cloud"
     },
@@ -129,6 +130,7 @@
       "label": "vSphere Resource Pool - Workflow01",
       "secured": false,
       "required": true,
+      "default": "RS01",
       "immutable": false,
       "group_name": "cloud"
     },
@@ -171,6 +173,7 @@
       "description": "Target vSphere resource pool to host the virtual machine.",
       "hidden": false,
       "label": "vSphere Resource Pool - Workflow02",
+      "default": "RS01",
       "secured": false,
       "required": true,
       "immutable": false,
@@ -380,6 +383,7 @@
       "label": "Short Hostname - IHS01",
       "secured": false,
       "required": true,
+      "default": "BAWIHS01",
       "regex": "^(?![0-9]+$)([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9])$",
       "immutable": false,
       "group_name": "virtualmachine"
@@ -626,6 +630,7 @@
       "label": "Template Disk Datastore - IHS01",
       "secured": false,
       "required": true,
+      "default": "datastore1",
       "immutable": false,
       "group_name": "virtualmachine"
     },
@@ -893,6 +898,7 @@
       "label": "Keystore Password",
       "secured": true,
       "required": true,
+      "default": "passw0rd@123",
       "immutable": false,
       "immutable_after_create": true,
       "group_name": "ihsconfiguration"
@@ -905,6 +911,7 @@
       "label": "Virtual Machine IP Address - Workflow01",
       "secured": false,
       "required": true,
+      "default": "159.122.95.247",
       "regex": "^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$",
       "immutable": false,
       "group_name": "virtualmachine"
@@ -917,6 +924,7 @@
       "label": "Short Hostname - Workflow01",
       "secured": false,
       "required": true,
+      "default": "BAWWF01",
       "regex": "^(?![0-9]+$)([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9])$",
       "immutable": false,
       "group_name": "virtualmachine"
@@ -929,6 +937,7 @@
       "label": "Domain Name - Workflow01",
       "secured": false,
       "required": true,
+      "default": "ibm.com",
       "immutable": false,
       "group_name": "virtualmachine"
     },
@@ -962,6 +971,7 @@
       "label": "Virtual Machine Gateway Address - Workflow01",
       "secured": false,
       "required": true,
+      "default": "159.122.95.241",
       "regex": "^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$",
       "immutable": false,
       "group_name": "virtualmachine"
@@ -987,6 +997,7 @@
       "label": "Virtual Machine vSphere Port Group - Workflow01",
       "secured": false,
       "required": true,
+      "default": "Public",
       "immutable": false,
       "group_name": "virtualmachine"
     },
@@ -1010,6 +1021,7 @@
       "label": "Operating System ID / Template - Workflow01",
       "secured": false,
       "required": true,
+      "default": "Ubuntu64",
       "immutable": false,
       "group_name": "virtualmachine"
     },
@@ -1021,6 +1033,7 @@
       "label": "Operating System Username - Workflow01",
       "secured": false,
       "required": true,
+      "default": "root",
       "regex": "^[a-z][-a-z0-9]*$",
       "immutable": false,
       "group_name": "virtualmachine"
@@ -1033,6 +1046,7 @@
       "label": "Operating System Password - Workflow01",
       "secured": true,
       "required": true,
+      "default": "root4icp",
       "immutable": false,
       "group_name": "virtualmachine"
     },
@@ -1157,6 +1171,7 @@
       "label": "Template Disk Datastore - Workflow01",
       "secured": false,
       "required": true,
+      "default": "datastore1",
       "immutable": false,
       "group_name": "virtualmachine"
     },
@@ -1292,6 +1307,7 @@
       "label": "Virtual Machine IP Address - Workflow02",
       "secured": false,
       "required": true,
+      "default": "159.122.95.248",
       "regex": "^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$",
       "immutable": false,
       "group_name": "virtualmachine"
@@ -1304,6 +1320,7 @@
       "label": "Short Hostname - Workflow02",
       "secured": false,
       "required": true,
+      "default": "BAWWF02",
       "regex": "^(?![0-9]+$)([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9])$",
       "immutable": false,
       "group_name": "virtualmachine"
@@ -1316,6 +1333,7 @@
       "label": "Domain Name - Workflow02",
       "secured": false,
       "required": true,
+      "default": "ibm.com",
       "immutable": false,
       "group_name": "virtualmachine"
     },
@@ -1349,6 +1367,7 @@
       "label": "Virtual Machine Gateway Address - Workflow02",
       "secured": false,
       "required": true,
+      "default": "159.122.95.241",
       "regex": "^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$",
       "immutable": false,
       "group_name": "virtualmachine"
@@ -1374,6 +1393,7 @@
       "label": "Virtual Machine vSphere Port Group - Workflow02",
       "secured": false,
       "required": true,
+      "default": "Public",
       "immutable": false,
       "group_name": "virtualmachine"
     },
@@ -1397,6 +1417,7 @@
       "label": "Operating System ID / Template - Workflow02",
       "secured": false,
       "required": true,
+      "default": "Ubuntu64",
       "immutable": false,
       "group_name": "virtualmachine"
     },
@@ -1408,6 +1429,7 @@
       "label": "Operating System Username - Workflow02",
       "secured": false,
       "required": true,
+      "default": "root",
       "regex": "^[a-z][-a-z0-9]*$",
       "immutable": false,
       "group_name": "virtualmachine"
@@ -1420,6 +1442,7 @@
       "label": "Operating System Password - Workflow02",
       "secured": true,
       "required": true,
+      "default": "passw0rd@123",
       "immutable": false,
       "group_name": "virtualmachine"
     },
@@ -1544,6 +1567,7 @@
       "label": "Template Disk Datastore - Workflow02",
       "secured": false,
       "required": true,
+      "default": "datastore1",
       "immutable": false,
       "group_name": "virtualmachine"
     },
