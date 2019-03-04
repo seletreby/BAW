@@ -1983,19 +1983,6 @@
       "group_name": "configuration"
     },
     {
-      "name": "case_network_shared_dir",
-      "type": "string",
-      "description": "The network shared directory, which is shared among multiple workflow servers in the deployment environment. Required for the Advanced product type, NFS only.",
-      "hidden": true,
-      "label": "Case Management Network Shared Directory",
-      "secured": false,
-      "default": "none",
-      "required": false,
-      "immutable": false,
-      "immutable_after_create": true,
-      "group_name": "configuration"
-    },
-    {
       "name": "Workflow01_ps_environment_purpose",
       "type": "string",
       "description": "The Workflow Server environment: Development, Test, Staging, or Production.",
@@ -2075,6 +2062,19 @@
       "immutable_after_create": true,
       "group_name": "configuration"
     },
+    {
+     "name": "case_network_shared_dir",
+     "type": "string",
+     "description": "The network shared directory, which is shared among multiple workflow servers in the deployment environment. Required for the Advanced product type, NFS only.",
+     "hidden": true,
+     "label": "Case Management Network Shared Directory",
+     "secured": false,
+     "default": "none",
+     "required": false,
+     "immutable": false,
+     "immutable_after_create": true,
+     "group_name": "configuration"
+   },
     {
       "name": "Workflow01_ps_pc_hostname",
       "type": "string",
