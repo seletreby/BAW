@@ -1461,7 +1461,7 @@
       "label": "Operating System Password - Workflow02",
       "secured": true,
       "required": true,
-      "default": "passw0rd@123",
+      "default": "root4icp",
       "immutable": false,
       "group_name": "virtualmachine"
     },
