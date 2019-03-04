@@ -2069,7 +2069,6 @@
      "hidden": true,
      "label": "Case Management Network Shared Directory",
      "secured": false,
-     "default": "/opt/IBM/Workflow/CaseManagement",
      "required": false,
      "immutable": false,
      "immutable_after_create": true,
@@ -2110,7 +2109,6 @@
       "label": "Workflow Center Context Root Prefix for Workflow Server Connection",
       "secured": false,
       "required": false,
-      "default": "BAWWF01",
       "immutable": false,
       "immutable_after_create": true,
       "group_name": "configuration"
@@ -2136,7 +2134,6 @@
       "label": "Workflow Center Alias User Password for Workflow Server Connection",
       "secured": true,
       "required": false,
-      "default": "passw0rd@123",
       "immutable": false,
       "immutable_after_create": true,
       "group_name": "configuration"
@@ -2288,7 +2285,6 @@
       "label": "Db2 Fenced Password",
       "secured": true,
       "required": false,
-      "default": "passw0rd@123",
       "immutable": false,
       "immutable_after_create": true,
       "group_name": "db2"
@@ -2338,7 +2334,6 @@
       "label": "Db2 Administration Password",
       "secured": true,
       "required": false,
-      "default": "passw0rd@123",
       "immutable": false,
       "immutable_after_create": true,
       "group_name": "db2"
