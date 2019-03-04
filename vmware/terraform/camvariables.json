@@ -2110,6 +2110,7 @@
       "label": "Workflow Center Context Root Prefix for Workflow Server Connection",
       "secured": false,
       "required": false,
+      "default": "BAWWF01",
       "immutable": false,
       "immutable_after_create": true,
       "group_name": "configuration"
