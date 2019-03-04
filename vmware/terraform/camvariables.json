@@ -2069,10 +2069,9 @@
      "hidden": true,
      "label": "Case Management Network Shared Directory",
      "secured": false,
-     "default": "/opt/ibm/nfs/BAW",
      "required": false,
      "immutable": false,
-     "immutable_after_create": true,
+     "immutable_after_create": false,
      "group_name": "configuration"
    },
     {
