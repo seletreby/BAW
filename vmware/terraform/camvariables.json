@@ -2069,9 +2069,10 @@
      "hidden": true,
      "label": "Case Management Network Shared Directory",
      "secured": false,
+     "default": "/opt/IBM/Workflow/CaseManagement",
      "required": false,
      "immutable": false,
-     "immutable_after_create": false,
+     "immutable_after_create": true,
      "group_name": "configuration"
    },
     {
