@@ -2142,7 +2142,7 @@
       "name": "Database_type",
       "type": "string",
       "description": "The database type for configuration, Db2 or Oracle",
-      "default": "Db2",
+      "default": "DB2",
       "hidden": false,
       "label": "Database Type for Configuration",
       "secured": false,
