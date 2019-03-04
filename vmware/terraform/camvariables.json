@@ -1989,6 +1989,7 @@
       "hidden": true,
       "label": "Case Management Network Shared Directory",
       "secured": false,
+      "default": "none",
       "required": false,
       "immutable": false,
       "immutable_after_create": true,
