@@ -2136,6 +2136,7 @@
       "label": "Workflow Center Alias User Password for Workflow Server Connection",
       "secured": true,
       "required": false,
+      "default": "passw0rd@123",
       "immutable": false,
       "immutable_after_create": true,
       "group_name": "configuration"
