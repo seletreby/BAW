@@ -383,7 +383,7 @@
       "label": "Short Hostname - IHS01",
       "secured": false,
       "required": true,
-      "default": "BAWIHS01",
+      "default": "BPMIHS01",
       "regex": "^(?![0-9]+$)([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9])$",
       "immutable": false,
       "group_name": "virtualmachine"
@@ -423,7 +423,7 @@
       "secured": false,
       "required": true,
       "default": [
-        "BAWIHS01.ibm.com"
+        "BPMIHS01.ibm.com"
       ],
       "immutable": false,
       "group_name": "virtualmachine"
@@ -931,7 +931,7 @@
       "label": "Short Hostname - Workflow01",
       "secured": false,
       "required": true,
-      "default": "BAWWF01",
+      "default": "BPMWF01",
       "regex": "^(?![0-9]+$)([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9])$",
       "immutable": false,
       "group_name": "virtualmachine"
@@ -971,7 +971,7 @@
       "secured": false,
       "required": true,
       "default": [
-        "BAWWF01.ibm.com"
+        "BPMWF01.ibm.com"
       ],
       "immutable": false,
       "group_name": "virtualmachine"
@@ -1333,7 +1333,7 @@
       "label": "Short Hostname - Workflow02",
       "secured": false,
       "required": true,
-      "default": "BAWWF02",
+      "default": "BPMWF02",
       "regex": "^(?![0-9]+$)([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9])$",
       "immutable": false,
       "group_name": "virtualmachine"
@@ -1373,7 +1373,7 @@
       "secured": false,
       "required": true,
       "default": [
-        "BAWWF02.ibm.com"
+        "BPMWF02.ibm.com"
       ],
       "immutable": false,
       "group_name": "virtualmachine"
@@ -2082,7 +2082,7 @@
       "label": "Workflow Center Hostname for Workflow Server Connection",
       "secured": false,
       "required": false,
-      "default": "BAWWF01",
+      "default": "BPMWF01",
       "regex": "^(?![0-9]+$)([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9])$|^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5]).){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$",
       "immutable": false,
       "immutable_after_create": true,
